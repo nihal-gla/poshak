@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Cabin:400,700|Source+Sans+Pro:400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -303,8 +302,6 @@ th {
 *,
 :after,
 :before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box
 }
 
@@ -370,8 +367,6 @@ img {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 2px;
-    -webkit-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     display: inline-block;
     max-width: 100%;
@@ -2070,8 +2065,6 @@ label {
 }
 
 input[type=search] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box
 }
 
@@ -2123,16 +2116,12 @@ output {
     background-image: none;
     border: 1px solid #000;
     border-radius: 2px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-    -webkit-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
 .form-control:focus {
     border-color: #66afe9;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
 }
 
@@ -2485,13 +2474,11 @@ textarea.input-lg {
 
 .has-success .form-control {
     border-color: #fff;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
 }
 
 .has-success .form-control:focus {
     border-color: #e6e6e6;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #fff;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #fff
 }
 
@@ -2520,13 +2507,11 @@ textarea.input-lg {
 
 .has-warning .form-control {
     border-color: #8a6d3b;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
 }
 
 .has-warning .form-control:focus {
     border-color: #66512c;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b
 }
 
@@ -2555,13 +2540,11 @@ textarea.input-lg {
 
 .has-error .form-control {
     border-color: #fff;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
 }
 
 .has-error .form-control:focus {
     border-color: #e6e6e6;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #fff;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #fff
 }
 
@@ -2738,7 +2721,6 @@ textarea.input-lg {
 .btn:active {
     outline: 0;
     background-image: none;
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
 }
 
@@ -2748,7 +2730,6 @@ fieldset[disabled] .btn {
     cursor: not-allowed;
     opacity: .65;
     filter: alpha(opacity=65);
-    -webkit-box-shadow: none;
     box-shadow: none
 }
 
@@ -3129,7 +3110,6 @@ fieldset[disabled] .btn-danger:hover {
 .btn-link[disabled],
 fieldset[disabled] .btn-link {
     background-color: transparent;
-    -webkit-box-shadow: none;
     box-shadow: none
 }
 
@@ -3196,8 +3176,6 @@ input[type=submit].btn-block {
 
 .fade {
     opacity: 0;
-    -webkit-transition: opacity .15s linear;
-    -o-transition: opacity .15s linear;
     transition: opacity .15s linear
 }
 
@@ -3225,11 +3203,8 @@ tbody.collapse.in {
     position: relative;
     height: 0;
     overflow: hidden;
-    -webkit-transition-property: height, visibility;
     transition-property: height, visibility;
-    -webkit-transition-duration: .35s;
     transition-duration: .35s;
-    -webkit-transition-timing-function: ease;
     transition-timing-function: ease
 }
 
@@ -3271,7 +3246,6 @@ tbody.collapse.in {
     border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, .15);
     border-radius: 2px;
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     background-clip: padding-box
 }
@@ -3508,12 +3482,10 @@ tbody.collapse.in {
 }
 
 .btn-group.open .dropdown-toggle {
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
 }
 
 .btn-group.open .dropdown-toggle.btn-link {
-    -webkit-box-shadow: none;
     box-shadow: none
 }
 
@@ -4229,7 +4201,6 @@ tbody.collapse.in {
     padding: 10px 15px;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
-    -webkit-box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, .1), 0 1px 0 hsla(0, 0%, 100%, .1);
     box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, .1), 0 1px 0 hsla(0, 0%, 100%, .1)
 }
 
@@ -4301,7 +4272,6 @@ tbody.collapse.in {
         margin-right: 0;
         padding-top: 0;
         padding-bottom: 0;
-        -webkit-box-shadow: none;
         box-shadow: none
     }
 }
@@ -4895,8 +4865,6 @@ button.close {
 .carousel-inner>.item {
     display: none;
     position: relative;
-    -webkit-transition: left .6s ease-in-out;
-    -o-transition: .6s ease-in-out left;
     transition: left .6s ease-in-out
 }
 
@@ -4911,33 +4879,24 @@ button.close {
 @media (-webkit-transform-3d),
 (transform-3d) {
     .carousel-inner>.item {
-        -webkit-transition: -webkit-transform .6s ease-in-out;
-        -moz-transition: -moz-transform .6s ease-in-out;
-        -o-transition: -o-transform .6s ease-in-out;
         transition: transform .6s ease-in-out;
         -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
         backface-visibility: hidden;
-        -webkit-perspective: 1000px;
-        -moz-perspective: 1000px;
         perspective: 1000px
     }
     .carousel-inner>.item.active.right,
     .carousel-inner>.item.next {
-        -webkit-transform: translate3d(100%, 0, 0);
         transform: translate3d(100%, 0, 0);
         left: 0
     }
     .carousel-inner>.item.active.left,
     .carousel-inner>.item.prev {
-        -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0);
         left: 0
     }
     .carousel-inner>.item.active,
     .carousel-inner>.item.next.left,
     .carousel-inner>.item.prev.right {
-        -webkit-transform: translateZ(0);
         transform: translateZ(0);
         left: 0
     }
@@ -4997,8 +4956,6 @@ button.close {
 }
 
 .carousel-control.left {
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5), rgba(0, 0, 0, .0001));
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-image: linear-gradient(90deg, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001));
     background-repeat: repeat-x;
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#80000000", endColorstr="#00000000", GradientType=1)
@@ -5007,8 +4964,6 @@ button.close {
 .carousel-control.right {
     left: auto;
     right: 0;
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001), rgba(0, 0, 0, .5));
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-image: linear-gradient(90deg, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5));
     background-repeat: repeat-x;
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#80000000", GradientType=1)
@@ -5477,8 +5432,6 @@ button.close {
 
 .grid-item .project-description {
     opacity: 0;
-    -webkit-transition: all .3s linear;
-    -o-transition: all .3s linear;
     transition: all .3s linear;
     background: hsla(0, 0%, 100%, .5);
     position: absolute;
@@ -5519,8 +5472,6 @@ button.close {
 }
 
 .btn {
-    -webkit-transition: all .1s linear;
-    -o-transition: all .1s linear;
     transition: all .1s linear
 }
 
@@ -5553,8 +5504,6 @@ textarea {
 }
 
 main {
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
     transition: all .2s linear;
     padding: 15px;
     height: 100%;
@@ -5590,8 +5539,6 @@ main {
     overflow-y: auto;
     background-color: #fff;
     z-index: 999;
-    -webkit-transition: left .2s linear;
-    -o-transition: left .2s linear;
     transition: left .2s linear;
     left: -240px;
     top: 52px;
@@ -5631,8 +5578,6 @@ main {
     font-size: 18px;
     font-weight: 700;
     display: block;
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
     transition: all .2s linear
 }
 
