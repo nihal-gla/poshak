@@ -59,7 +59,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="file" class="form-control" @if (!isset($product)) required @endif name="image">
+                                <input type="file" accept="image/png, image/jpeg" class="form-control" @if (!isset($product)) required @endif name="image">
                             </div>
                         </div>
                     </div>
